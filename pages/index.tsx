@@ -1,6 +1,7 @@
-import Head from 'next/head';
-import Image from 'next/image';
-
 export default function Home() {
-	return <div>Index</div>;
+	return (
+		<main className="text-2xl">
+			Almost before we knew it, we had left the ground.
+		</main>
+	);
 }
